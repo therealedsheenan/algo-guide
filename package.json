@@ -1,0 +1,25 @@
+{
+  "name": "algo-guide",
+  "version": "1.0.0",
+  "description": "Sheenan Tenepre's personal algorithm guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealedsheenan/algo-guide.git"
+  },
+  "keywords": [
+    "algorithm",
+    "javascript",
+    "personal",
+    "guide"
+  ],
+  "author": "Sheenan Tenepre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealedsheenan/algo-guide/issues"
+  },
+  "homepage": "https://github.com/therealedsheenan/algo-guide#readme"
+}
