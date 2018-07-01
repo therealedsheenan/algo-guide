@@ -13,7 +13,7 @@ const harmlessRansomNote = (noteText, magazineText) => {
   *   text: 1
   * }
   */
-  magazineTextArr.forEach((magazineWord) => {
+  magazineTextArr.map((magazineWord) => {
     if (!magazineObj[magazineWord]) {
       magazineObj[magazineWord] = 0
     }
@@ -23,7 +23,7 @@ const harmlessRansomNote = (noteText, magazineText) => {
 
   let noteIsPossible = true
   // check every instances of word from note's word
-  noteArr.forEach((noteWord) => {
+  noteArr.map((noteWord) => {
     // decerement if a word is in the magazineObj
     if (magazineObj[noteWord]) {
       magazineObj[noteWord]--
