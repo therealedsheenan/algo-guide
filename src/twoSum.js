@@ -1,4 +1,4 @@
-// find 2 values in the array that equates to sum value
+// find 2 values in the array that equates to the value of the sum
 const twoSum = (numArray, sum) => {
   const pairs = []
   const hashTable = numArray
